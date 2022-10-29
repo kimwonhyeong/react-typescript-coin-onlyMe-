@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-typescript-coin-onlyMe-.git/static/js/main.41edae28.js",
-    "index.html": "/react-typescript-coin-onlyMe-.git/index.html",
-    "main.41edae28.js.map": "/react-typescript-coin-onlyMe-.git/static/js/main.41edae28.js.map"
+    "main.js": "/react-typescript-coin-onlyMe-/static/js/main.cb4591e6.js",
+    "index.html": "/react-typescript-coin-onlyMe-/index.html",
+    "main.cb4591e6.js.map": "/react-typescript-coin-onlyMe-/static/js/main.cb4591e6.js.map"
   },
   "entrypoints": [
-    "static/js/main.41edae28.js"
+    "static/js/main.cb4591e6.js"
   ]
 }
