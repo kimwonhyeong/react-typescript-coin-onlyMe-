@@ -28,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+	"deploy": "gh-pages -d build",
+	"predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +51,8 @@
     ]
   },
   "devDependencies": {
-    "@types/react-helmet": "^6.1.5"
-  }
+    "@types/react-helmet": "^6.1.5",
+    "gh-pages": "^4.0.0"
+  },
+  "homepage":"https://kimwonhyeong.github.io/react-typescript-coin-onlyMe-.git"
 }
