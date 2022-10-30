@@ -2,7 +2,7 @@ import {createGlobalStyle} from "styled-components";
 import React from 'react';
 import Router from './Router';
 import { ReactQueryDevtools } from "react-query/devtools";
-
+import {HelmetProvider} from "react-helmet-async";
 const GlobalStyle = createGlobalStyle`
 	@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 		html, body, div, span, applet, object, iframe,
@@ -68,7 +68,9 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <>
+	  <HelmetProvider>
 	  <Router/>
+	  </HelmetProvider>
 	  <GlobalStyle/>
 	  <ReactQueryDevtools initialIsOpen={true} />
 	</>

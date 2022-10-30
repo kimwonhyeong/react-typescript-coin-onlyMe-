@@ -1,9 +1,9 @@
 import {useParams} from "react-router";
 import styled from "styled-components";
-import {Switch, Route, useLocation,useRouteMatch} from "react-router";
+import {Switch, Route,useRouteMatch} from "react-router";
 import Chart from "./Chart";
 import {Link} from "react-router-dom";
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 import Price from "./Price";
 import {useQuery} from "react-query";
 import {fetchCoinInfo, fetchCoinTickers} from "../api";

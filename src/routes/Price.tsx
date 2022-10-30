@@ -1,7 +1,5 @@
 import {fetchCoinHistory} from "../api";
-import {useParams} from "react-router";
 import styled from "styled-components";
-import {Link} from "react-router-dom";
 import {useQuery} from "react-query";
 
 const PriceList = styled.ul`
@@ -33,7 +31,7 @@ function Price({coinId} : {coinId : string}){
 			{isLoading ? <h1>잠시만 기다려주세요</h1> : 
 			(<PriceList>
 				 {data?.map((item)=>
-				(<Prices>
+				(<Prices key={Math.random()}>
 				 	시가: {item.open}
 				 	종가: {item.close}
 				 	고가: {item.high}

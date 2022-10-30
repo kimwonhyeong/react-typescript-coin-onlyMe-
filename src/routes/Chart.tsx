@@ -1,7 +1,4 @@
 import {fetchCoinHistory} from "../api";
-import {useParams} from "react-router";
-import styled from "styled-components";
-import {Link} from "react-router-dom";
 import {useQuery} from "react-query";
 import ApexChart from "react-apexcharts";
 
